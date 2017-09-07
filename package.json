@@ -1,5 +1,5 @@
 {
-    "name": "CDVIdleTimer",
+    "name": "cervenka.paul.CDVIdleTimer",
     "version": "1.0.0",
     "description": "Idle timer plugin for Cordova iOS",
     "cordova": {
