@@ -1,0 +1,25 @@
+{
+    "name": "CDVIdleTimer",
+    "version": "1.0.0",
+    "description": "Idle timer plugin for Cordova iOS",
+    "cordova": {
+        "id": "cervenka.paul.CDVIdleTimer",
+        "platforms": [
+            "ios"
+        ]
+    },
+    "keywords": [
+        "ios",
+        "timer",
+        "idle",
+        "screen",
+        "dim",
+        "dimmer"
+    ],
+    "engines": {
+        "name": "cordova",
+        "version": ">=3.0.0"
+    },
+    "author": "",
+    "license": "MIT"
+}

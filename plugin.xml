@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cervenka.paul.CDVIdleTimer" version="1.0.0">
+  <name>CDVIdleTimer</name>
+  <description>Idle timer plugin for Cordova iOS</description>
+  <license>MIT</license>
+  <keywords>ios,timer,idle,screen,dim,dimmer</keywords>
+  <js-module src="www/CDVIdleTimer.js" name="CDVIdleTimer">
+    <clobbers target="CDVIdleTimer"/>
+  </js-module>
+  <platform name="ios">
+    <config-file target="config.xml" parent="/*">
+      <feature name="CDVIdleTimer">
+        <param name="ios-package" value="CDVIdleTimer"/>
+      </feature>
+    </config-file>
+    <header-file src="src/ios/CDVIdleTimer.h"/>
+    <source-file src="src/ios/CDVIdleTimer.m"/>
+  </platform>
+</plugin>
